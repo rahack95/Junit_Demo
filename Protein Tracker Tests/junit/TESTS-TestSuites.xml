@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="1" hostname="basanta-Lenovo-B490" id="0" name="TrackingServiceTest" package="com.trackerTest" skipped="0" tests="5" time="0.375" timestamp="2018-06-30T13:31:03">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="env.SESSION_MANAGER" value="local/basanta-Lenovo-B490:@/tmp/.ICE-unix/1589,unix/basanta-Lenovo-B490:/tmp/.ICE-unix/1589" />
+
+          <property name="env.IM_CONFIG_PHASE" value="2" />
+
+          <property name="env.LIBOVERLAY_SCROLLBAR" value="0" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/home/basanta/Eclipse/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/templates//" />
+
+          <property name="env.QT_IM_MODULE" value="ibus" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.GTK2_MODULES" value="overlay-scrollbar" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes" />
+
+          <property name="env.PWD" value="/home/basanta" />
+
+          <property name="sun.desktop" value="gnome" />
+
+          <property name="env.LANG" value="en_IN" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="env.XDG_MENU_PREFIX" value="gnome-" />
+
+          <property name="ant.home" value="/home/basanta/Eclipse/plugins/org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="java.runtime.version" value="1.8.0_151-b12" />
+
+          <property name="env.GTK_IM_MODULE" value="ibus" />
+
+          <property name="env.DEFAULTS_PATH" value="/usr/share/gconf/ubuntu.default.path" />
+
+          <property name="env.XDG_VTNR" value="2" />
+
+          <property name="env.DISPLAY" value=":0" />
+
+          <property name="env.GJS_DEBUG_TOPICS" value="JS ERROR;JS LOG" />
+
+          <property name="user.name" value="basanta" />
+
+          <property name="env.QT4_IM_MODULE" value="xim" />
+
+          <property name="env.USER" value="basanta" />
+
+          <property name="env.SHELL" value="/bin/bash" />
+
+          <property name="env.GNOME_SHELL_SESSION_MODE" value="ubuntu" />
+
+          <property name="env.DESKTOP_SESSION" value="ubuntu" />
+
+          <property name="env.XDG_DATA_DIRS" value="/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop" />
+
+          <property name="env.NLSPATH" value="/usr/dt/lib/nls/msg/%L/%N.cat" />
+
+          <property name="env.GJS_DEBUG_OUTPUT" value="stderr" />
+
+          <property name="env.PATH" value="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin" />
+
+          <property name="env.XDG_CURRENT_DESKTOP" value="ubuntu:GNOME" />
+
+          <property name="user.language" value="en" />
+
+          <property name="env.XDG_SESSION_DESKTOP" value="ubuntu" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64" />
+
+          <property name="env.TEXTDOMAIN" value="im-config" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="ant.project.name" value="Protein Tracker Tests" />
+
+          <property name="java.version" value="1.8.0_151" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="env.DBUS_SESSION_BUS_ADDRESS" value="unix:path=/run/user/1000/bus" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="env.SSH_AGENT_PID" value="1693" />
+
+          <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed" />
+
+          <property name="env.DERBY_HOME" value="/usr/lib/jvm/java-8-oracle/db" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="env.SHLVL" value="0" />
+
+          <property name="ECLIPSE_HOME" value="../../../Eclipse/" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="env.GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="env.GDMSESSION" value="ubuntu" />
+
+          <property name="user.country" value="IN" />
+
+          <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="env.LOGNAME" value="basanta" />
+
+          <property name="ant.file" value="/home/basanta/Documents/Java_Workspace/Protein Tracker Tests/build.xml" />
+
+          <property name="os.version" value="4.15.0-23-generic" />
+
+          <property name="env.J2REDIR" value="/usr/lib/jvm/java-8-oracle/jre" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="java.vm.version" value="25.151-b12" />
+
+          <property name="env.LANGUAGE" value="en_IN:en" />
+
+          <property name="env.TEXTDOMAINDIR" value="/usr/share/locale/" />
+
+          <property name="ant.library.dir" value="/home/basanta/Eclipse/plugins/org.apache.ant_1.9.6.v201510161327/lib" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="env.QT_QPA_PLATFORMTHEME" value="appmenu-qt5" />
+
+          <property name="env.JAVA_HOME" value="/usr/lib/jvm/java-8-oracle" />
+
+          <property name="env.XDG_SESSION_TYPE" value="x11" />
+
+          <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="env.WINDOWPATH" value="2" />
+
+          <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+
+          <property name="env.OXYGEN_DISABLE_INNER_SHADOWS_HACK" value="1" />
+
+          <property name="env.XMODIFIERS" value="@im=ibus" />
+
+          <property name="eclipse.pdebuild.scripts" value="/home/basanta/Eclipse/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/scripts//" />
+
+          <property name="target" value="1.8" />
+
+          <property name="user.home" value="/home/basanta" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="env.GIO_LAUNCHED_DESKTOP_FILE" value="/home/basanta/.local/share/applications/eclipse.desktop" />
+
+          <property name="env.S_COLORS" value="auto" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="env.XDG_SEAT" value="seat0" />
+
+          <property name="ant.file.Protein Tracker Tests" value="/home/basanta/Documents/Java_Workspace/Protein Tracker Tests/build.xml" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="java.class.path" value="/home/basanta/Documents/Java_Workspace/Protein Tracker Tests/bin:/home/basanta/Documents/Java_Workspace/Protein Tracker/bin:/home/basanta/Eclipse/JARs/Junit/junit-4.12.jar:/home/basanta/Eclipse/JARs/Junit/hamcrest-core-1.3.jar:/home/basanta/Eclipse/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-launcher.jar:/home/basanta/Eclipse/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant.jar:/home/basanta/Eclipse/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-junit.jar:/home/basanta/Eclipse/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.trackerTest.TrackingServiceTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/basanta/Documents/Java_Workspace/Protein Tracker Tests/junit/TEST-com.trackerTest.TrackingServiceTest.xml crashfile=/home/basanta/Documents/Java_Workspace/Protein Tracker Tests/junitvmwatcher8587224891316108818.properties propsfile=/home/basanta/Documents/Java_Workspace/Protein Tracker Tests/junit7804046770852058972.properties" />
+
+          <property name="env.XDG_SESSION_ID" value="2" />
+
+          <property name="env.XFILESEARCHPATH" value="/usr/dt/app-defaults/%L/Dt" />
+
+          <property name="env.QT_ACCESSIBILITY" value="1" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="Protein Tracker.location" value="../Protein Tracker" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.HOME" value="/home/basanta" />
+
+          <property name="env.ANT_HOME" value="/home/basanta/Eclipse/plugins/org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="eclipse.pdebuild.home" value="/home/basanta/Eclipse/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/.//" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.SSH_AUTH_SOCK" value="/run/user/1000/keyring/ssh" />
+
+          <property name="env.CLUTTER_IM_MODULE" value="xim" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="env.XDG_RUNTIME_DIR" value="/run/user/1000" />
+
+          <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext" />
+
+          <property name="user.dir" value="/home/basanta/Documents/Java_Workspace/Protein Tracker Tests" />
+
+          <property name="env.XAUTHORITY" value="/run/user/1000/gdm/Xauthority" />
+
+          <property name="env.MANDATORY_PATH" value="/usr/share/gconf/ubuntu.mandatory.path" />
+
+          <property name="env.GDK_SCALE" value="1" />
+
+          <property name="env.GTK_MODULES" value="gail:atk-bridge" />
+
+          <property name="env.J2SDKDIR" value="/usr/lib/jvm/java-8-oracle" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.GDK_CORE_DEVICE_EVENTS" value="1" />
+
+          <property name="basedir" value="/home/basanta/Documents/Java_Workspace/Protein Tracker Tests" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="/home/basanta/Eclipse/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant.jar" />
+
+          <property name="env.USERNAME" value="basanta" />
+
+          <property name="source" value="1.8" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="ant.file.type.Protein Tracker Tests" value="file" />
+
+          <property name="env.GPG_AGENT_INFO" value="/run/user/1000/gnupg/S.gpg-agent:0:1" />
+
+          <property name="env.GIO_LAUNCHED_DESKTOP_FILE_PID" value="20385" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="env.XDG_CONFIG_DIRS" value="/etc/xdg/xdg-ubuntu:/etc/xdg" />
+
+          <property name="ant.project.invoked-targets" value="build,TrackingServiceTest" />
+
+      </properties>
+
+      <testcase classname="com.trackerTest.TrackingServiceTest" name="goalLessThanZero" time="0.038">
+          <failure message="Expected test to throw (an instance of com.tracker.InvalidGoalException and exception with message a string containing &quot;Less than Zero&quot;)" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Expected test to throw (an instance of com.tracker.InvalidGoalException and exception with message a string containing &quot;Less than Zero&quot;)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+
+      </testcase>
+
+      <testcase classname="com.trackerTest.TrackingServiceTest" name="testTotalIsZero" time="0.001" />
+
+      <testcase classname="com.trackerTest.TrackingServiceTest" name="testRemoveProtein" time="0.001" />
+
+      <testcase classname="com.trackerTest.TrackingServiceTest" name="badTest" time="0.21">
+          <error message="test timed out after 200 milliseconds" type="org.junit.runners.model.TestTimedOutException">org.junit.runners.model.TestTimedOutException: test timed out after 200 milliseconds
+	at com.tracker.TrackingService.addProtein(TrackingService.java:15)
+	at com.trackerTest.TrackingServiceTest.badTest(TrackingServiceTest.java:85)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.trackerTest.TrackingServiceTest" name="testAddProtein" time="0.005" />
+
+      <system-out><![CDATA[Before Class
+Before
+After
+Before
+After
+Before
+After
+Before
+Before
+After
+After Class
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>

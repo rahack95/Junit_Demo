@@ -1,0 +1,43 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results: All Tests</title>
+<link rel="stylesheet" type="text/css" title="Style" href="stylesheet.css">
+</head>
+<body onload="open('allclasses-frame.html','classListFrame')">
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org/">JUnit</a> and <a href="http://ant.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>All Tests</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Class</th><th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="com/trackerTest/0_TrackingServiceTest.html">TrackingServiceTest</a></td><td><a name="goalLessThanZero"></a><a href="com/trackerTest/0_TrackingServiceTest.html#goalLessThanZero">goalLessThanZero</a></td><td>Failure</td><td>Expected test to throw (an instance of com.tracker.InvalidGoalException and exception with message a string containing "Less than Zero")<br>
+<br>
+<code>junit.framework.AssertionFailedError: Expected test to throw (an instance of com.tracker.InvalidGoalException and exception with message a string containing "Less than Zero")<br>	at java.util.concurrent.FutureTask.run(FutureTask.java:266)<br>	at java.lang.Thread.run(Thread.java:748)<br>
+</code></td><td>0.038</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="com/trackerTest/0_TrackingServiceTest.html">TrackingServiceTest</a></td><td><a name="testTotalIsZero"></a><a href="com/trackerTest/0_TrackingServiceTest.html#testTotalIsZero">testTotalIsZero</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="com/trackerTest/0_TrackingServiceTest.html">TrackingServiceTest</a></td><td><a name="testRemoveProtein"></a><a href="com/trackerTest/0_TrackingServiceTest.html#testRemoveProtein">testRemoveProtein</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="com/trackerTest/0_TrackingServiceTest.html">TrackingServiceTest</a></td><td><a name="badTest"></a><a href="com/trackerTest/0_TrackingServiceTest.html#badTest">badTest</a></td><td>Error</td><td>test timed out after 200 milliseconds<br>
+<br>
+<code>org.junit.runners.model.TestTimedOutException: test timed out after 200 milliseconds<br>	at com.tracker.TrackingService.addProtein(TrackingService.java:15)<br>	at com.trackerTest.TrackingServiceTest.badTest(TrackingServiceTest.java:85)<br>	at java.util.concurrent.FutureTask.run(FutureTask.java:266)<br>	at java.lang.Thread.run(Thread.java:748)<br>
+</code></td><td>0.210</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="com/trackerTest/0_TrackingServiceTest.html">TrackingServiceTest</a></td><td><a name="testAddProtein"></a><a href="com/trackerTest/0_TrackingServiceTest.html#testAddProtein">testAddProtein</a></td><td>Success</td><td></td><td>0.005</td>
+</tr>
+</table>
+</body>
+</html>

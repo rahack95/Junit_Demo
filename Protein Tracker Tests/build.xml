@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="Protein Tracker Tests">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../../Eclipse/"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="Protein Tracker.location" value="../Protein Tracker"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <path id="Protein Tracker.classpath">
+        <pathelement location="${Protein Tracker.location}/bin"/>
+    </path>
+    <path id="Protein Tracker Tests.classpath">
+        <pathelement location="bin"/>
+        <path refid="Protein Tracker.classpath"/>
+        <pathelement location="../../../Eclipse/JARs/Junit/junit-4.12.jar"/>
+        <pathelement location="../../../Eclipse/JARs/Junit/hamcrest-core-1.3.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall">
+        <ant antfile="build.xml" dir="${Protein Tracker.location}" inheritAll="false" target="clean"/>
+    </target>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects">
+        <ant antfile="build.xml" dir="${Protein Tracker.location}" inheritAll="false" target="build-project">
+            <propertyset>
+                <propertyref name="build.compiler"/>
+            </propertyset>
+        </ant>
+    </target>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="Protein Tracker Tests.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="TrackingServiceTest.testTotalIsZero">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.trackerTest.TrackingServiceTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="Protein Tracker Tests.classpath"/>
+        </junit>
+    </target>
+    <target name="ParameterizedTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.trackerTest.ParameterizedTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="Protein Tracker Tests.classpath"/>
+        </junit>
+    </target>
+    <target name="TrackingServiceTest.testAddProtein">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.trackerTest.TrackingServiceTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="Protein Tracker Tests.classpath"/>
+        </junit>
+    </target>
+    <target name="TrackingServiceTheories">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.trackerTest.TrackingServiceTheories" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="Protein Tracker Tests.classpath"/>
+        </junit>
+    </target>
+    <target name="TrackingServiceTest.badTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.trackerTest.TrackingServiceTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="Protein Tracker Tests.classpath"/>
+        </junit>
+    </target>
+    <target name="TrackingServiceTest.goalLessThanZero">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.trackerTest.TrackingServiceTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="Protein Tracker Tests.classpath"/>
+        </junit>
+    </target>
+    <target name="TrackingServiceTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.trackerTest.TrackingServiceTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="Protein Tracker Tests.classpath"/>
+        </junit>
+    </target>
+    <target name="TrackingServiceTheories.postiveInpuGivesPositiveTotal">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.trackerTest.TrackingServiceTheories" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="Protein Tracker Tests.classpath"/>
+        </junit>
+    </target>
+    <target name="ProteinTrackerSuite">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.trackerTest.ProteinTrackerSuite" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="Protein Tracker Tests.classpath"/>
+        </junit>
+    </target>
+    <target name="GoodTestsSuite">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.trackerTest.GoodTestsSuite" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="Protein Tracker Tests.classpath"/>
+        </junit>
+    </target>
+    <target name="ConsoleRunner">
+        <java classname="com.trackerTest.ConsoleRunner" failonerror="true" fork="yes">
+            <classpath refid="Protein Tracker Tests.classpath"/>
+        </java>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>
